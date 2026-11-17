@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <div class="main">
+            <h1>Welcome to the codebreaking excercise.</h1>
+            <h3>In order to get sweets, you must crack the code.</h3>
+            <br>
+            <table class="table1">
+                <tr>
+                    <td>Rules</td>
+                    <td>Hints</td>
+                </tr>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>The password does not have any spaces in it.</li>
+                            <li>At the start of each word, there will be a capital letter (when first written in rough working, this rule can be ignored after Hint 6)</li>
+                            <li>Hints 1-5 are just placed one after the other: e.g Hint1Hint2Hint3Hint4Hint5</li>
+                            <li>It is reccomended to do the hints in order</li>
+                            <li>Calulators are NOT permitted in this excercise.</li>
+                            <li>The use of the internet to research answers to trivia (capital cities, years, etc.) is restricted to <a href="https://wikipedia.org/">Wikipedia</a></li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>The year that the largest country in the past 40 years collapsed.</li>
+                            <li>This country has the city of Geneva in it.</li>
+                            <li>The largest country in Oceania.</li>
+                            <li>The best A-level subject.</li>
+                            <li>Caesar cipher the capital of Germany. The key is the answer to the following question: <br>
+                            <img src="equation.png"></img></li>
+                            <li>All capital As are swapped for lowercase Bs. All lowercase As are swapped for capital Bs.</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input id="code" placeholder="Code"></input>
+            <p id="result"></p>
+            <button class="button" onclick="check()">Check Answer</button>
+        </div>
+    </body>
+</html>
